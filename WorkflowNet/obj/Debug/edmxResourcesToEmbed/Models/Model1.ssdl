@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WorkflowNetModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="estado_dependencia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_workflow" Type="int" />
+    <Property Name="id_estado_desde" Type="int" />
+    <Property Name="id_estado_hasta" Type="int" />
+    <Property Name="parametrizable" Type="bit" />
+  </EntityType>
+  <EntityType Name="estados">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_workflow" Type="int" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="500" />
+    <Property Name="estado_inicial" Type="bit" />
+    <Property Name="estado_final" Type="bit" />
+  </EntityType>
+  <EntityType Name="parametro_secuencia_estado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_parametro" Type="int" />
+    <Property Name="id_estado_siguiente" Type="int" Nullable="false" />
+    <Property Name="valor_parametro" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="parametros">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="parametros_estado_dependencia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_parametro" Type="int" />
+    <Property Name="id_estado_dependencia" Type="int" />
+  </EntityType>
+  <EntityType Name="proceso_workflow">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_estado_actual" Type="int" />
+    <Property Name="id_workflow" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tareas_estado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="metodo" Type="nvarchar" MaxLength="500" />
+    <Property Name="id_estado" Type="int" />
+    <Property Name="parametros" Type="nvarchar" MaxLength="500" />
+    <Property Name="ruta_dll" Type="nvarchar" MaxLength="500" />
+    <Property Name="nombre_libreria" Type="nvarchar" MaxLength="500" />
+    <Property Name="nombre_clase" Type="nvarchar" MaxLength="500" />
+    <Property Name="es_asincrona" Type="bit" />
+  </EntityType>
+  <EntityType Name="tracks">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="metodo" Type="nvarchar" MaxLength="500" />
+    <Property Name="tipo_respuesta" Type="nvarchar" MaxLength="100" />
+    <Property Name="respuesta" Type="nvarchar(max)" />
+    <Property Name="descripcion" Type="nvarchar(max)" />
+    <Property Name="fecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="workflow">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="500" />
+    <Property Name="estado" Type="bit" />
+  </EntityType>
+  <Association Name="FK_estado_dependencia_estados">
+    <End Role="estados" Type="Self.estados" Multiplicity="0..1" />
+    <End Role="estado_dependencia" Type="Self.estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estado_dependencia">
+        <PropertyRef Name="id_estado_desde" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_estado_dependencia_estados1">
+    <End Role="estados" Type="Self.estados" Multiplicity="0..1" />
+    <End Role="estado_dependencia" Type="Self.estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estado_dependencia">
+        <PropertyRef Name="id_estado_hasta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_estado_dependencia_workflow">
+    <End Role="workflow" Type="Self.workflow" Multiplicity="0..1" />
+    <End Role="estado_dependencia" Type="Self.estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="workflow">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estado_dependencia">
+        <PropertyRef Name="id_workflow" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_estados_workflow">
+    <End Role="workflow" Type="Self.workflow" Multiplicity="0..1" />
+    <End Role="estados" Type="Self.estados" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="workflow">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estados">
+        <PropertyRef Name="id_workflow" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_parametro_estado_dependencia_estado_dependencia">
+    <End Role="estado_dependencia" Type="Self.estado_dependencia" Multiplicity="0..1" />
+    <End Role="parametros_estado_dependencia" Type="Self.parametros_estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estado_dependencia">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="parametros_estado_dependencia">
+        <PropertyRef Name="id_estado_dependencia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_parametro_estado_dependencia_parametros">
+    <End Role="parametros" Type="Self.parametros" Multiplicity="0..1" />
+    <End Role="parametros_estado_dependencia" Type="Self.parametros_estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="parametros">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="parametros_estado_dependencia">
+        <PropertyRef Name="id_parametro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_parametro_secuencia_estado_estados">
+    <End Role="estados" Type="Self.estados" Multiplicity="1" />
+    <End Role="parametro_secuencia_estado" Type="Self.parametro_secuencia_estado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="parametro_secuencia_estado">
+        <PropertyRef Name="id_estado_siguiente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_parametro_secuencia_estado_parametros">
+    <End Role="parametros" Type="Self.parametros" Multiplicity="0..1" />
+    <End Role="parametro_secuencia_estado" Type="Self.parametro_secuencia_estado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="parametros">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="parametro_secuencia_estado">
+        <PropertyRef Name="id_parametro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_proceso_workflow_estados">
+    <End Role="estados" Type="Self.estados" Multiplicity="0..1" />
+    <End Role="proceso_workflow" Type="Self.proceso_workflow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="proceso_workflow">
+        <PropertyRef Name="id_estado_actual" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_proceso_workflow_workflow">
+    <End Role="workflow" Type="Self.workflow" Multiplicity="0..1" />
+    <End Role="proceso_workflow" Type="Self.proceso_workflow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="workflow">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="proceso_workflow">
+        <PropertyRef Name="id_workflow" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tareas_estados_estados">
+    <End Role="estados" Type="Self.estados" Multiplicity="0..1" />
+    <End Role="tareas_estado" Type="Self.tareas_estado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tareas_estado">
+        <PropertyRef Name="id_estado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WorkflowNetModelStoreContainer">
+    <EntitySet Name="estado_dependencia" EntityType="Self.estado_dependencia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="estados" EntityType="Self.estados" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="parametro_secuencia_estado" EntityType="Self.parametro_secuencia_estado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="parametros" EntityType="Self.parametros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="parametros_estado_dependencia" EntityType="Self.parametros_estado_dependencia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="proceso_workflow" EntityType="Self.proceso_workflow" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tareas_estado" EntityType="Self.tareas_estado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tracks" EntityType="Self.tracks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="workflow" EntityType="Self.workflow" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_estado_dependencia_estados" Association="Self.FK_estado_dependencia_estados">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="estado_dependencia" EntitySet="estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_estado_dependencia_estados1" Association="Self.FK_estado_dependencia_estados1">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="estado_dependencia" EntitySet="estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_estado_dependencia_workflow" Association="Self.FK_estado_dependencia_workflow">
+      <End Role="workflow" EntitySet="workflow" />
+      <End Role="estado_dependencia" EntitySet="estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_estados_workflow" Association="Self.FK_estados_workflow">
+      <End Role="workflow" EntitySet="workflow" />
+      <End Role="estados" EntitySet="estados" />
+    </AssociationSet>
+    <AssociationSet Name="FK_parametro_estado_dependencia_estado_dependencia" Association="Self.FK_parametro_estado_dependencia_estado_dependencia">
+      <End Role="estado_dependencia" EntitySet="estado_dependencia" />
+      <End Role="parametros_estado_dependencia" EntitySet="parametros_estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_parametro_estado_dependencia_parametros" Association="Self.FK_parametro_estado_dependencia_parametros">
+      <End Role="parametros" EntitySet="parametros" />
+      <End Role="parametros_estado_dependencia" EntitySet="parametros_estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_parametro_secuencia_estado_estados" Association="Self.FK_parametro_secuencia_estado_estados">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="parametro_secuencia_estado" EntitySet="parametro_secuencia_estado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_parametro_secuencia_estado_parametros" Association="Self.FK_parametro_secuencia_estado_parametros">
+      <End Role="parametros" EntitySet="parametros" />
+      <End Role="parametro_secuencia_estado" EntitySet="parametro_secuencia_estado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_proceso_workflow_estados" Association="Self.FK_proceso_workflow_estados">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="proceso_workflow" EntitySet="proceso_workflow" />
+    </AssociationSet>
+    <AssociationSet Name="FK_proceso_workflow_workflow" Association="Self.FK_proceso_workflow_workflow">
+      <End Role="workflow" EntitySet="workflow" />
+      <End Role="proceso_workflow" EntitySet="proceso_workflow" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tareas_estados_estados" Association="Self.FK_tareas_estados_estados">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="tareas_estado" EntitySet="tareas_estado" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

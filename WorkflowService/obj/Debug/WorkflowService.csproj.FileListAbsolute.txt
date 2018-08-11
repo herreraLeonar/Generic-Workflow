@@ -1,0 +1,15 @@
+C:\WorkflowNet\WorkflowService\bin\WorkflowService.dll.config
+C:\WorkflowNet\WorkflowService\bin\WorkflowService.dll
+C:\WorkflowNet\WorkflowService\bin\WorkflowService.pdb
+C:\WorkflowNet\WorkflowService\bin\EntityFramework.dll
+C:\WorkflowNet\WorkflowService\bin\EntityFramework.SqlServer.dll
+C:\WorkflowNet\WorkflowService\bin\WorkflowNet.dll
+C:\WorkflowNet\WorkflowService\bin\WorkflowNet.pdb
+C:\WorkflowNet\WorkflowService\bin\WorkflowNet.dll.config
+C:\WorkflowNet\WorkflowService\bin\EntityFramework.xml
+C:\WorkflowNet\WorkflowService\bin\EntityFramework.SqlServer.xml
+C:\WorkflowNet\WorkflowService\obj\Debug\WorkflowService.csprojAssemblyReference.cache
+C:\WorkflowNet\WorkflowService\obj\Debug\WorkflowService.csproj.CoreCompileInputs.cache
+C:\WorkflowNet\WorkflowService\obj\Debug\WorkflowService.csproj.CopyComplete
+C:\WorkflowNet\WorkflowService\obj\Debug\WorkflowService.dll
+C:\WorkflowNet\WorkflowService\obj\Debug\WorkflowService.pdb

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WorkflowServiceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="workflowServiceEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="service_config" EntityType="WorkflowServiceModel.service_config" />
+    <EntitySet Name="tareas" EntityType="WorkflowServiceModel.tarea" />
+    <EntitySet Name="tareas_ejecutadas" EntityType="WorkflowServiceModel.tareas_ejecutadas" />
+    <EntitySet Name="tracks" EntityType="WorkflowServiceModel.track" />
+    <AssociationSet Name="FK_tareas_ejecutadas_tareas" Association="WorkflowServiceModel.FK_tareas_ejecutadas_tareas">
+      <End Role="tarea" EntitySet="tareas" />
+      <End Role="tareas_ejecutadas" EntitySet="tareas_ejecutadas" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="service_config">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="intervalo_ms" Type="Int32" Nullable="false" />
+    <Property Name="mensaje_inicio" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="mensaje_detenido" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="mensaje_intervalo" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="service_log" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="nombre_source" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tarea">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="metodo" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="nombre_contrato" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="url_servicio" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="parametros" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="tiempo_ejecucion" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="ultima_ejecucion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="tareas_ejecutadas" Relationship="WorkflowServiceModel.FK_tareas_ejecutadas_tareas" FromRole="tarea" ToRole="tareas_ejecutadas" />
+  </EntityType>
+  <EntityType Name="tareas_ejecutadas">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_tarea" Type="Int32" />
+    <Property Name="momento_ejecucion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="respuesta" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tarea" Relationship="WorkflowServiceModel.FK_tareas_ejecutadas_tareas" FromRole="tareas_ejecutadas" ToRole="tarea" />
+  </EntityType>
+  <EntityType Name="track">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="fecha" Type="DateTime" Precision="3" />
+  </EntityType>
+  <Association Name="FK_tareas_ejecutadas_tareas">
+    <End Type="WorkflowServiceModel.tarea" Role="tarea" Multiplicity="0..1" />
+    <End Type="WorkflowServiceModel.tareas_ejecutadas" Role="tareas_ejecutadas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tarea">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tareas_ejecutadas">
+        <PropertyRef Name="id_tarea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

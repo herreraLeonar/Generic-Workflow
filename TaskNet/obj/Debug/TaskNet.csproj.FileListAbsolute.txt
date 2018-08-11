@@ -1,0 +1,15 @@
+C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe.config
+C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.pdb
+C:\WorkflowNet\TaskNet\bin\Debug\EntityFramework.dll
+C:\WorkflowNet\TaskNet\bin\Debug\EntityFramework.SqlServer.dll
+C:\WorkflowNet\TaskNet\bin\Debug\EntityFramework.xml
+C:\WorkflowNet\TaskNet\bin\Debug\EntityFramework.SqlServer.xml
+C:\WorkflowNet\TaskNet\obj\Debug\TaskNet.ProjectInstaller.resources
+C:\WorkflowNet\TaskNet\obj\Debug\TaskNet.TaskNet.resources
+C:\WorkflowNet\TaskNet\obj\Debug\TaskNet.csproj.GenerateResource.cache
+C:\WorkflowNet\TaskNet\obj\Debug\TaskNet.csproj.CoreCompileInputs.cache
+C:\WorkflowNet\TaskNet\obj\Debug\TaskNet.csproj.CopyComplete
+C:\WorkflowNet\TaskNet\obj\Debug\TaskNet.exe
+C:\WorkflowNet\TaskNet\obj\Debug\TaskNet.pdb
+C:\WorkflowNet\TaskNet\obj\Debug\TaskNet.csprojAssemblyReference.cache

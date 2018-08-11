@@ -1,0 +1,996 @@
+﻿Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe assembly.
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe assembly.
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe assembly.
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   uu = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   uu = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Restoring event log to previous state for source TaskNet.
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\TaskNet.exe
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Restoring event log to previous state for source TaskNet.
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = C:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Restoring event log to previous state for source TaskNet.
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Service TaskNet is being removed from the system...
+Service TaskNet was successfully removed from the system.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Creating EventLog source TaskNet in log Application...
+Rolling back assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Restoring event log to previous state for source TaskNet.
+Uninstalling assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Removing EventLog source TaskNet.
+Warning: The source TaskNet is not registered on the local machine.
+Service TaskNet is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe
+Installing service TaskNet...
+Service TaskNet has been successfully installed.
+Creating EventLog source TaskNet in log Application...
+Committing assembly 'c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.InstallLog
+   assemblypath = c:\WorkflowNet\TaskNet\bin\Debug\tasknet.exe

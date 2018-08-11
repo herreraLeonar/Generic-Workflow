@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WorkflowNetModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="WorkflowNetEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="estado_dependencia" EntityType="WorkflowNetModel.estado_dependencia" />
+    <EntitySet Name="estados" EntityType="WorkflowNetModel.estados" />
+    <EntitySet Name="parametro_secuencia_estado" EntityType="WorkflowNetModel.parametro_secuencia_estado" />
+    <EntitySet Name="parametros" EntityType="WorkflowNetModel.parametros" />
+    <EntitySet Name="parametros_estado_dependencia" EntityType="WorkflowNetModel.parametros_estado_dependencia" />
+    <EntitySet Name="proceso_workflow" EntityType="WorkflowNetModel.proceso_workflow" />
+    <EntitySet Name="sysdiagrams" EntityType="WorkflowNetModel.sysdiagramas" />
+    <EntitySet Name="tareas_estado" EntityType="WorkflowNetModel.tareas_estado" />
+    <EntitySet Name="tracks" EntityType="WorkflowNetModel.tracks" />
+    <EntitySet Name="workflow" EntityType="WorkflowNetModel.workflow" />
+    <AssociationSet Name="FK_estado_dependencia_estados" Association="WorkflowNetModel.FK_estado_dependencia_estados">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="estado_dependencia" EntitySet="estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_estado_dependencia_estados1" Association="WorkflowNetModel.FK_estado_dependencia_estados1">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="estado_dependencia" EntitySet="estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_estado_dependencia_workflow" Association="WorkflowNetModel.FK_estado_dependencia_workflow">
+      <End Role="workflow" EntitySet="workflow" />
+      <End Role="estado_dependencia" EntitySet="estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_parametro_estado_dependencia_estado_dependencia" Association="WorkflowNetModel.FK_parametro_estado_dependencia_estado_dependencia">
+      <End Role="estado_dependencia" EntitySet="estado_dependencia" />
+      <End Role="parametros_estado_dependencia" EntitySet="parametros_estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_estados_workflow" Association="WorkflowNetModel.FK_estados_workflow">
+      <End Role="workflow" EntitySet="workflow" />
+      <End Role="estados" EntitySet="estados" />
+    </AssociationSet>
+    <AssociationSet Name="FK_parametro_secuencia_estado_estados" Association="WorkflowNetModel.FK_parametro_secuencia_estado_estados">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="parametro_secuencia_estado" EntitySet="parametro_secuencia_estado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_proceso_workflow_estados" Association="WorkflowNetModel.FK_proceso_workflow_estados">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="proceso_workflow" EntitySet="proceso_workflow" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tareas_estados_estados" Association="WorkflowNetModel.FK_tareas_estados_estados">
+      <End Role="estados" EntitySet="estados" />
+      <End Role="tareas_estado" EntitySet="tareas_estado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_parametro_secuencia_estado_parametros" Association="WorkflowNetModel.FK_parametro_secuencia_estado_parametros">
+      <End Role="parametros" EntitySet="parametros" />
+      <End Role="parametro_secuencia_estado" EntitySet="parametro_secuencia_estado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_parametro_estado_dependencia_parametros" Association="WorkflowNetModel.FK_parametro_estado_dependencia_parametros">
+      <End Role="parametros" EntitySet="parametros" />
+      <End Role="parametros_estado_dependencia" EntitySet="parametros_estado_dependencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_proceso_workflow_workflow" Association="WorkflowNetModel.FK_proceso_workflow_workflow">
+      <End Role="workflow" EntitySet="workflow" />
+      <End Role="proceso_workflow" EntitySet="proceso_workflow" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="estado_dependencia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_workflow" Type="Int32" />
+    <Property Name="id_estado_desde" Type="Int32" />
+    <Property Name="id_estado_hasta" Type="Int32" />
+    <Property Name="parametrizable" Type="Boolean" />
+    <NavigationProperty Name="estados" Relationship="WorkflowNetModel.FK_estado_dependencia_estados" FromRole="estado_dependencia" ToRole="estados" />
+    <NavigationProperty Name="estados1" Relationship="WorkflowNetModel.FK_estado_dependencia_estados1" FromRole="estado_dependencia" ToRole="estados" />
+    <NavigationProperty Name="workflow" Relationship="WorkflowNetModel.FK_estado_dependencia_workflow" FromRole="estado_dependencia" ToRole="workflow" />
+    <NavigationProperty Name="parametros_estado_dependencia" Relationship="WorkflowNetModel.FK_parametro_estado_dependencia_estado_dependencia" FromRole="estado_dependencia" ToRole="parametros_estado_dependencia" />
+  </EntityType>
+  <EntityType Name="estados">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_workflow" Type="Int32" />
+    <Property Name="nombre" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="estado_inicial" Type="Boolean" />
+    <Property Name="estado_final" Type="Boolean" />
+    <NavigationProperty Name="estado_dependencia" Relationship="WorkflowNetModel.FK_estado_dependencia_estados" FromRole="estados" ToRole="estado_dependencia" />
+    <NavigationProperty Name="estado_dependencia1" Relationship="WorkflowNetModel.FK_estado_dependencia_estados1" FromRole="estados" ToRole="estado_dependencia" />
+    <NavigationProperty Name="workflow" Relationship="WorkflowNetModel.FK_estados_workflow" FromRole="estados" ToRole="workflow" />
+    <NavigationProperty Name="parametro_secuencia_estado" Relationship="WorkflowNetModel.FK_parametro_secuencia_estado_estados" FromRole="estados" ToRole="parametro_secuencia_estado" />
+    <NavigationProperty Name="proceso_workflow" Relationship="WorkflowNetModel.FK_proceso_workflow_estados" FromRole="estados" ToRole="proceso_workflow" />
+    <NavigationProperty Name="tareas_estado" Relationship="WorkflowNetModel.FK_tareas_estados_estados" FromRole="estados" ToRole="tareas_estado" />
+  </EntityType>
+  <EntityType Name="parametro_secuencia_estado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_parametro" Type="Int32" />
+    <Property Name="id_estado_siguiente" Type="Int32" Nullable="false" />
+    <Property Name="valor_parametro" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="estados" Relationship="WorkflowNetModel.FK_parametro_secuencia_estado_estados" FromRole="parametro_secuencia_estado" ToRole="estados" />
+    <NavigationProperty Name="parametros" Relationship="WorkflowNetModel.FK_parametro_secuencia_estado_parametros" FromRole="parametro_secuencia_estado" ToRole="parametros" />
+  </EntityType>
+  <EntityType Name="parametros">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="parametro_secuencia_estado" Relationship="WorkflowNetModel.FK_parametro_secuencia_estado_parametros" FromRole="parametros" ToRole="parametro_secuencia_estado" />
+    <NavigationProperty Name="parametros_estado_dependencia" Relationship="WorkflowNetModel.FK_parametro_estado_dependencia_parametros" FromRole="parametros" ToRole="parametros_estado_dependencia" />
+  </EntityType>
+  <EntityType Name="parametros_estado_dependencia">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_parametro" Type="Int32" />
+    <Property Name="id_estado_dependencia" Type="Int32" />
+    <NavigationProperty Name="estado_dependencia" Relationship="WorkflowNetModel.FK_parametro_estado_dependencia_estado_dependencia" FromRole="parametros_estado_dependencia" ToRole="estado_dependencia" />
+    <NavigationProperty Name="parametros" Relationship="WorkflowNetModel.FK_parametro_estado_dependencia_parametros" FromRole="parametros_estado_dependencia" ToRole="parametros" />
+  </EntityType>
+  <EntityType Name="proceso_workflow">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_estado_actual" Type="Int32" />
+    <Property Name="id_workflow" Type="Int32" />
+    <NavigationProperty Name="estados" Relationship="WorkflowNetModel.FK_proceso_workflow_estados" FromRole="proceso_workflow" ToRole="estados" />
+    <NavigationProperty Name="workflow" Relationship="WorkflowNetModel.FK_proceso_workflow_workflow" FromRole="proceso_workflow" ToRole="workflow" />
+  </EntityType>
+  <EntityType Name="sysdiagramas">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tareas_estado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="metodo" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="id_estado" Type="Int32" />
+    <Property Name="parametros" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ruta_dll" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="nombre_libreria" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="nombre_clase" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="es_asincrona" Type="Boolean" />
+    <NavigationProperty Name="estados" Relationship="WorkflowNetModel.FK_tareas_estados_estados" FromRole="tareas_estado" ToRole="estados" />
+  </EntityType>
+  <EntityType Name="tracks">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="metodo" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="tipo_respuesta" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="respuesta" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="fecha" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="workflow">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="estado" Type="Boolean" />
+    <NavigationProperty Name="estado_dependencia" Relationship="WorkflowNetModel.FK_estado_dependencia_workflow" FromRole="workflow" ToRole="estado_dependencia" />
+    <NavigationProperty Name="estados" Relationship="WorkflowNetModel.FK_estados_workflow" FromRole="workflow" ToRole="estados" />
+    <NavigationProperty Name="proceso_workflow" Relationship="WorkflowNetModel.FK_proceso_workflow_workflow" FromRole="workflow" ToRole="proceso_workflow" />
+  </EntityType>
+  <Association Name="FK_estado_dependencia_estados">
+    <End Type="WorkflowNetModel.estados" Role="estados" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.estado_dependencia" Role="estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estado_dependencia">
+        <PropertyRef Name="id_estado_desde" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_estado_dependencia_estados1">
+    <End Type="WorkflowNetModel.estados" Role="estados" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.estado_dependencia" Role="estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estado_dependencia">
+        <PropertyRef Name="id_estado_hasta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_estado_dependencia_workflow">
+    <End Type="WorkflowNetModel.workflow" Role="workflow" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.estado_dependencia" Role="estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="workflow">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estado_dependencia">
+        <PropertyRef Name="id_workflow" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_parametro_estado_dependencia_estado_dependencia">
+    <End Type="WorkflowNetModel.estado_dependencia" Role="estado_dependencia" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.parametros_estado_dependencia" Role="parametros_estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estado_dependencia">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="parametros_estado_dependencia">
+        <PropertyRef Name="id_estado_dependencia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_estados_workflow">
+    <End Type="WorkflowNetModel.workflow" Role="workflow" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.estados" Role="estados" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="workflow">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="estados">
+        <PropertyRef Name="id_workflow" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_parametro_secuencia_estado_estados">
+    <End Type="WorkflowNetModel.estados" Role="estados" Multiplicity="1" />
+    <End Type="WorkflowNetModel.parametro_secuencia_estado" Role="parametro_secuencia_estado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="parametro_secuencia_estado">
+        <PropertyRef Name="id_estado_siguiente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_proceso_workflow_estados">
+    <End Type="WorkflowNetModel.estados" Role="estados" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.proceso_workflow" Role="proceso_workflow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="proceso_workflow">
+        <PropertyRef Name="id_estado_actual" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tareas_estados_estados">
+    <End Type="WorkflowNetModel.estados" Role="estados" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.tareas_estado" Role="tareas_estado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estados">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tareas_estado">
+        <PropertyRef Name="id_estado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_parametro_secuencia_estado_parametros">
+    <End Type="WorkflowNetModel.parametros" Role="parametros" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.parametro_secuencia_estado" Role="parametro_secuencia_estado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="parametros">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="parametro_secuencia_estado">
+        <PropertyRef Name="id_parametro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_parametro_estado_dependencia_parametros">
+    <End Type="WorkflowNetModel.parametros" Role="parametros" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.parametros_estado_dependencia" Role="parametros_estado_dependencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="parametros">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="parametros_estado_dependencia">
+        <PropertyRef Name="id_parametro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_proceso_workflow_workflow">
+    <End Type="WorkflowNetModel.workflow" Role="workflow" Multiplicity="0..1" />
+    <End Type="WorkflowNetModel.proceso_workflow" Role="proceso_workflow" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="workflow">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="proceso_workflow">
+        <PropertyRef Name="id_workflow" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

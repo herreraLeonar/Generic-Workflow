@@ -1,0 +1,12 @@
+C:\WorkflowNet\WorkflowNet\bin\Debug\WorkflowNet.dll.config
+C:\WorkflowNet\WorkflowNet\bin\Debug\WorkflowNet.dll
+C:\WorkflowNet\WorkflowNet\bin\Debug\WorkflowNet.pdb
+C:\WorkflowNet\WorkflowNet\bin\Debug\EntityFramework.dll
+C:\WorkflowNet\WorkflowNet\bin\Debug\EntityFramework.SqlServer.dll
+C:\WorkflowNet\WorkflowNet\bin\Debug\EntityFramework.xml
+C:\WorkflowNet\WorkflowNet\bin\Debug\EntityFramework.SqlServer.xml
+C:\WorkflowNet\WorkflowNet\obj\Debug\WorkflowNet.csproj.CoreCompileInputs.cache
+C:\WorkflowNet\WorkflowNet\obj\Debug\WorkflowNet.csproj.CopyComplete
+C:\WorkflowNet\WorkflowNet\obj\Debug\WorkflowNet.dll
+C:\WorkflowNet\WorkflowNet\obj\Debug\WorkflowNet.pdb
+C:\WorkflowNet\WorkflowNet\obj\Debug\WorkflowNet.csprojAssemblyReference.cache

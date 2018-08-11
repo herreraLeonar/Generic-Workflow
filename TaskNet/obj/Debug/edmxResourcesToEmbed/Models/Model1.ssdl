@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WorkflowServiceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="service_config">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="intervalo_ms" Type="int" Nullable="false" />
+    <Property Name="mensaje_inicio" Type="nvarchar" MaxLength="500" />
+    <Property Name="mensaje_detenido" Type="nvarchar" MaxLength="500" />
+    <Property Name="mensaje_intervalo" Type="nvarchar" MaxLength="500" />
+    <Property Name="service_log" Type="nvarchar" MaxLength="50" />
+    <Property Name="nombre_source" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tarea">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="metodo" Type="nvarchar" MaxLength="500" />
+    <Property Name="nombre_contrato" Type="nvarchar" MaxLength="500" />
+    <Property Name="url_servicio" Type="nvarchar" MaxLength="500" />
+    <Property Name="parametros" Type="nvarchar" MaxLength="500" />
+    <Property Name="tiempo_ejecucion" Type="time" Precision="7" Nullable="false" />
+    <Property Name="ultima_ejecucion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tareas_ejecutadas">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_tarea" Type="int" />
+    <Property Name="momento_ejecucion" Type="datetime" Nullable="false" />
+    <Property Name="respuesta" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tracks">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar(max)" />
+    <Property Name="fecha" Type="datetime" />
+  </EntityType>
+  <Association Name="FK_tareas_ejecutadas_tareas">
+    <End Role="tarea" Type="Self.tarea" Multiplicity="0..1" />
+    <End Role="tareas_ejecutadas" Type="Self.tareas_ejecutadas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tarea">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="tareas_ejecutadas">
+        <PropertyRef Name="id_tarea" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WorkflowServiceModelStoreContainer">
+    <EntitySet Name="service_config" EntityType="Self.service_config" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tarea" EntityType="Self.tarea" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tareas_ejecutadas" EntityType="Self.tareas_ejecutadas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tracks" EntityType="Self.tracks" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tareas_ejecutadas_tareas" Association="Self.FK_tareas_ejecutadas_tareas">
+      <End Role="tarea" EntitySet="tarea" />
+      <End Role="tareas_ejecutadas" EntitySet="tareas_ejecutadas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WorkflowServiceModelStoreContainer" CdmEntityContainer="workflowServiceEntities">
+    <EntitySetMapping Name="service_config">
+      <EntityTypeMapping TypeName="WorkflowServiceModel.service_config">
+        <MappingFragment StoreEntitySet="service_config">
+          <ScalarProperty Name="nombre_source" ColumnName="nombre_source" />
+          <ScalarProperty Name="service_log" ColumnName="service_log" />
+          <ScalarProperty Name="mensaje_intervalo" ColumnName="mensaje_intervalo" />
+          <ScalarProperty Name="mensaje_detenido" ColumnName="mensaje_detenido" />
+          <ScalarProperty Name="mensaje_inicio" ColumnName="mensaje_inicio" />
+          <ScalarProperty Name="intervalo_ms" ColumnName="intervalo_ms" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tareas">
+      <EntityTypeMapping TypeName="WorkflowServiceModel.tarea">
+        <MappingFragment StoreEntitySet="tarea">
+          <ScalarProperty Name="ultima_ejecucion" ColumnName="ultima_ejecucion" />
+          <ScalarProperty Name="tiempo_ejecucion" ColumnName="tiempo_ejecucion" />
+          <ScalarProperty Name="parametros" ColumnName="parametros" />
+          <ScalarProperty Name="url_servicio" ColumnName="url_servicio" />
+          <ScalarProperty Name="nombre_contrato" ColumnName="nombre_contrato" />
+          <ScalarProperty Name="metodo" ColumnName="metodo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tareas_ejecutadas">
+      <EntityTypeMapping TypeName="WorkflowServiceModel.tareas_ejecutadas">
+        <MappingFragment StoreEntitySet="tareas_ejecutadas">
+          <ScalarProperty Name="respuesta" ColumnName="respuesta" />
+          <ScalarProperty Name="momento_ejecucion" ColumnName="momento_ejecucion" />
+          <ScalarProperty Name="id_tarea" ColumnName="id_tarea" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tracks">
+      <EntityTypeMapping TypeName="WorkflowServiceModel.track">
+        <MappingFragment StoreEntitySet="tracks">
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

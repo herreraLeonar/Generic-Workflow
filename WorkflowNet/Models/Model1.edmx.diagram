@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d581fa7ffbe3483d81dc8ef546e78d78" Name="Diagram1" ZoomLevel="106">
+        <EntityTypeShape EntityType="WorkflowNetModel.estado_dependencia" Width="1.5" PointX="5.25" PointY="8" />
+        <EntityTypeShape EntityType="WorkflowNetModel.estados" Width="1.5" PointX="3" PointY="9.25" />
+        <EntityTypeShape EntityType="WorkflowNetModel.parametro_secuencia_estado" Width="1.5" PointX="8.25" PointY="11.75" />
+        <EntityTypeShape EntityType="WorkflowNetModel.parametros" Width="1.5" PointX="5.25" PointY="4.5" />
+        <EntityTypeShape EntityType="WorkflowNetModel.parametros_estado_dependencia" Width="1.5" PointX="7.5" PointY="5.375" />
+        <EntityTypeShape EntityType="WorkflowNetModel.proceso_workflow" Width="1.5" PointX="8.25" PointY="8.375" />
+        <EntityTypeShape EntityType="WorkflowNetModel.sysdiagramas" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="WorkflowNetModel.tareas_estado" Width="1.5" PointX="5.25" PointY="12.25" />
+        <EntityTypeShape EntityType="WorkflowNetModel.tracks" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="WorkflowNetModel.workflow" Width="1.5" PointX="0.75" PointY="6.25" />
+        <AssociationConnector Association="WorkflowNetModel.FK_estado_dependencia_estados" />
+        <AssociationConnector Association="WorkflowNetModel.FK_estado_dependencia_estados1" />
+        <AssociationConnector Association="WorkflowNetModel.FK_estado_dependencia_workflow" />
+        <AssociationConnector Association="WorkflowNetModel.FK_parametro_estado_dependencia_estado_dependencia" />
+        <AssociationConnector Association="WorkflowNetModel.FK_estados_workflow" />
+        <AssociationConnector Association="WorkflowNetModel.FK_parametro_secuencia_estado_estados" />
+        <AssociationConnector Association="WorkflowNetModel.FK_proceso_workflow_estados" />
+        <AssociationConnector Association="WorkflowNetModel.FK_tareas_estados_estados" />
+        <AssociationConnector Association="WorkflowNetModel.FK_parametro_secuencia_estado_parametros" />
+        <AssociationConnector Association="WorkflowNetModel.FK_parametro_estado_dependencia_parametros" />
+        <AssociationConnector Association="WorkflowNetModel.FK_proceso_workflow_workflow" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
